@@ -21,9 +21,9 @@ position: relative;
 /* -webkit-backdrop-filter: brightness(50%); */
 /* background-image: url(/Images/firstpic.png); */
 backdrop-filter: grayscale(40%);
-
+font-family:"Poppins",sans-serif;
 }
-.box1::before{
+.box1::after{
     webkit-filter: grayscale(1000%);  
     filter: grayscale(40%); 
 
@@ -39,11 +39,15 @@ backdrop-filter: grayscale(40%);
     
 }
 .navbar input{
-    width: 350px; 
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+    height: 20px; 
 }
 .navbar input:hover{
     color: #002d3d;
     background-color: #fcf7f3;
+    
 }
 .navbar i{
     padding-left: -2%;
@@ -365,6 +369,7 @@ color: #002d3d;
  .box5 input{
     /* border: solid; */
     border-radius: 6px; 
+    height: 15px;
  }
  .box5 button{
     text-align: center;  
@@ -372,6 +377,7 @@ color: #002d3d;
     border-radius: 5px;
     border: none;
     width: 50px;
+    
  }     
  .bottomnavbar{
 display: flex;
