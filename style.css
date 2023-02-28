@@ -136,7 +136,7 @@ width: 120px;
     padding-left: 220px;
     /* padding-bottom: -20px; */
 }
-.topwords p{
+.topwords {
     /* padding-left: 220px; */
     /* text-align: center; */
 }
@@ -148,16 +148,20 @@ width: 120px;
      border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     width: 220px;
-    
+    font-size:large;
+    color: #002d3d;
 
 }
 .classic1{
-
+color: #002d3d;
 padding-left: 200px; 
+font-size: large;
 }
 
 .scand1{
+    color: #002d3d;
 padding-left: 350px;
+font-size: large;
 }
 .kabox1{
 
