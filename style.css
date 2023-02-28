@@ -1,0 +1,395 @@
+.img1{
+
+}
+.box1{
+/* margin-bottom: -20px; */
+height: 500px;  
+background-image: url(/Images/first\ \(1\).jpg);
+background-size:cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: 100%;
+background-blend-mode: saturation;
+/* filter: blur(8px); */
+/* padding-top: -200px; */
+overflow: hidden;
+position: relative;
+/* background-color: #0a0a0a; */
+
+    /* webkit-filter: brightness(50%);    */ 
+/* backdrop-filter: ; */
+/* -webkit-backdrop-filter: brightness(50%); */
+/* background-image: url(/Images/firstpic.png); */
+backdrop-filter: grayscale(40%);
+
+}
+.box1::before{
+    webkit-filter: grayscale(1000%);  
+    filter: grayscale(40%); 
+
+}
+.box1-inside{
+    position: relative;
+}
+
+.navbar{
+    padding-top: 20px;
+    padding-left: 80px;
+    /* margin-right: 200px; */
+    
+}
+.navbar input{
+    width: 350px; 
+}
+.box1 hr{
+width: 1200px;
+
+}
+.cozy{
+   color: white; 
+}
+.homes{
+    color: #ffe5d6;
+}
+.shop{
+    padding-left: 20px;
+    color:  #ffe5d6 ;
+}
+
+.style{
+padding-left: 20px;
+color:  #ffe5d6 ;
+}
+
+.offers{
+    padding-left: 20px;
+    color:  #ffe5d6 ;
+    padding-right: 80px;
+}
+.rightnav{
+    float:right;
+padding-right: 60px;
+}
+.rightnav i{
+    color:  #ffe5d6 ;
+    font-size: 24px;
+    padding-right: 25px;
+}
+.upwords{
+    text-align: center;
+    
+}
+.upwords p{
+    color:  #ffe5d6 ;
+    font-size: large;
+}
+.upwords h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(250, 201, 109);
+    -moz-text-decoration-line: ;
+    
+}
+.upwords button{
+    border: none;
+background-color:  rgb(247, 164, 9) ;
+height: 30px;
+border-radius: 10px;
+width: 120px;
+}
+.box2{
+    background-color: rgb(255, 254, 253);
+     /* margin-right: -; */
+    height: 470px;  
+
+}
+.box2 h3{
+    padding-left: 220px; 
+    font-size: xx-large; 
+    color: #002d3d;
+
+}
+.box2 h3::after{
+    content:"";
+    height: 2px;
+    width: 90px;
+    display: block;
+    position: absolute;
+    background: #002d3d;
+    top: 78%;
+     right: 59%; 
+}
+.box2 hr{
+    margin-right: 240px;
+    width: 750px; 
+    background-color: pink;
+    margin-top: -1px;
+}
+.line1{
+    display: flex;
+    min-width: 20px;
+    padding-left: 200px;
+    
+}
+.topwords{
+    display: flex;
+    padding-left: 220px;
+    /* padding-bottom: -20px; */
+}
+.topwords p{
+    /* padding-left: 220px; */
+    /* text-align: center; */
+}
+.modern1{
+    border:solid #ffac7d;
+    text-align: center;
+    /* padding-left: 250px; */
+    background-color: #ffac7d;  
+     border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 220px;
+    
+
+}
+.classic1{
+
+padding-left: 120px; 
+}
+
+.scand1{
+padding-left: 240px;
+}
+.kabox1{
+
+  margin-left: 20px;  
+}
+/* .kabox1 p{
+    background-color: pink;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center; */
+
+
+.kabox1 img{
+    width: 300px;
+       height: 250px;
+}
+.kabox2{
+    text-align: center;
+     margin-left: 20px;   
+}
+.kabox2 img{
+    width: 300px;
+       height: 250px;
+    
+}
+.kabox3{
+    text-align: center;
+  margin-left: 20px;  
+
+}
+.kabox3 img{
+    width: 300px;
+       height: 250px;
+}
+.button2{
+    border: none;
+    background-color: #ffac7d;
+    text-align: center;
+     margin-left: 40%; 
+     border-radius: 6px;
+     height: 30px;
+}
+.box3{
+   /* padding-top: -40px;  */ 
+  /* border: solid;  */
+  height: 500px;  
+  background-color: #002d3d;
+  color:  #ffac7d;
+}
+.insidebox{
+    display: flex;
+}
+.box3 span{
+    float: right;
+}
+.box3 p{
+    /* float: left; */
+    text-align: left;
+}
+.kaboxf{
+
+    margin-left: 20px; 
+   }
+   .kaboxf p{
+    color: white;
+       /* border-top-left-radius: 5px;
+       border-top-right-radius: 5px; */
+       /* text-align: center; */
+   }
+   
+   .kaboxf img{
+    width: 300px;
+    height: 250px;
+   }
+   .kaboxs{
+       text-align: center;
+       margin-left: 20px;  
+   }
+   .kaboxs img{
+    width: 300px;
+    height: 250px;
+       
+   }
+   .kaboxs p{
+    color: white;
+
+   }
+   .kaboxt{
+       text-align: center;
+    margin-left: 20px; 
+   
+   }
+   .kaboxt img{
+    width: 300px;
+    height: 250px;
+   }
+   .kaboxt p{
+    color: white;
+
+   }
+   .box3 h3{
+    padding-left: 220px; 
+    font-size: xx-large; 
+}
+.box3 h3::after{
+    content:"";
+    height: 2px;
+    width: 90px;
+    display: block;
+    position: absolute;
+    background: #ffac7d;
+     /* top: 1px;  */
+     right: 61%;  
+     margin-top: -15px;
+}
+.insidebox{
+    display: flex;
+    min-width: 20px;
+    padding-left: 200px;
+    
+}
+.box4{
+    background-color: #ffe5d6;
+    /* border: solid; */
+    padding-left: 40px;
+     height: 400px; 
+    padding-left: 200px;
+    
+}
+.circle h3{
+    font-size: x-large;
+}
+.box4 h3::after{
+    content:"";
+    height: 2px;
+    width: 70px;
+    display: block;
+    position: absolute; 
+    background: #002d3d;
+    /* top: 0.5px; */  
+     right: 63.5%; 
+     /* padding-bottom: 10px; */
+     margin-top: -11px;
+     
+}
+.circle{
+    padding-top: 50px;
+    height: 350px;
+    width: 400px;
+    background-color: #ffdbc6;
+    border-radius: 50%;
+    text-align: left;
+    padding-left: 50px;
+    /* margin-bottom: -100px; */
+
+
+} 
+.circle p{
+    font-size: medium;
+    padding-left: -25px ;
+}
+.circle ul{
+    list-style: none;
+    padding-left: -50px;
+}
+.box4 img{
+     float: right;  
+     width: 450px;
+     height: 350px;
+     padding-right: 250px;  
+    padding-top: 20px;
+}
+.circle  a{
+color: #002d3d;
+
+}
+.circle ul{
+    color:#002d3d;
+    padding-left: -20px ;
+    }
+    .circle p{
+        
+        }  
+ .box5{
+    text-align: center;  
+    height: 150px;
+ } 
+ .box5 h3{
+    font-size: xx-large;  
+ }
+ .box5 input{
+    /* border: solid; */
+    border-radius: 6px; 
+ }
+ .box5 button{
+    text-align: center;  
+    background-color: #ffac7d;
+    border-radius: 5px;
+    border: none;
+    width: 30px;
+ }     
+ .bottomnavbar{
+display: flex;
+background-color: #002d3d;
+color: white;
+padding-left: 300px;
+ }
+ .first{
+    text-align: left;
+ }
+ .first a{
+    color: white;
+ }
+ .second a{
+    color: white;  
+ }
+ .third a{
+    color: white;
+ }
+ .fourth a{
+    color: white; 
+ }
+ .fifth a{
+    color: white; 
+ }
+ .homes{
+    color: #ffac7d;
+ }
+
+ .bottomnavbar i{
+    color: white;
+ padding-right: 15px; 
+ }
+ 
+ 
