@@ -305,7 +305,7 @@ font-size: large;
     background-color: #ffe5d6;
     /* border: solid; */
     padding-left: 40px;
-     height: 400px; 
+     height: 450px; 
     padding-left: 200px;
     
 }
@@ -328,7 +328,7 @@ font-size: large;
 }
 .circle{
     padding-top: 50px;
-    height: 350px;
+    height: 400px;
     width: 400px;
     background-color: #ffdbc6;
     border-radius: 50%;
@@ -350,7 +350,7 @@ font-size: large;
 .box4 img{
      float: right;  
      width: 450px;
-     height: 350px;
+     height: 400px;
      padding-right: 250px;  
     padding-top: 20px;
 }
@@ -367,7 +367,7 @@ color: #002d3d;
         }  
  .box5{
     text-align: center;  
-    height: 150px;
+    height: 180px;
  } 
  .box5 h3{
     font-size: xx-large;  
