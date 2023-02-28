@@ -43,6 +43,7 @@ font-family:"Poppins",sans-serif;
     border-radius: 5px;
     border: none;
     height: 25px; 
+    background-color: rgb(237, 233, 233);
 }
 .navbar input:hover{
     color: #002d3d;
@@ -109,6 +110,7 @@ background-color:  rgb(247, 164, 9) ;
 height: 30px;
 border-radius: 10px;
 width: 120px;
+font-size: medium;
 }
 .box2{
     background-color: rgb(255, 254, 253);
@@ -218,6 +220,7 @@ font-size: large;
      height: 30px;
      width: 150px;
      font-weight: bolder;
+     font-size: medium;
 }
 .box3{
    /* padding-top: -40px;  */ 
@@ -307,7 +310,7 @@ font-size: large;
     
 }
 .circle h3{
-    font-size: x-large;
+    font-size: 28px;
     
 }
 .box4 h3::after{
@@ -318,9 +321,9 @@ font-size: large;
     position: absolute; 
     background: #002d3d;
     /* top: 0.5px; */  
-     right: 63.5%; 
+     right: 61%; 
      /* padding-bottom: 10px; */
-     margin-top: -11px;
+     margin-top: -11.5px;
      
 }
 .circle{
@@ -336,12 +339,13 @@ font-size: large;
 
 } 
 .circle p{
-    font-size: medium;
+    font-size: large;
     padding-left: -25px ;
 }
 .circle ul{
     list-style: none;
-    padding-left: -50px;
+    
+   
 }
 .box4 img{
      float: right;  
