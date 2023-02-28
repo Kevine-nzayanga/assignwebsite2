@@ -115,7 +115,7 @@ width: 120px;
     width: 90px;
     display: block;
     position: absolute;
-    background: #002d3d;
+    background: #012e3f;
     top: 78%;
      right: 59%; 
 }
@@ -361,7 +361,7 @@ color: #002d3d;
     background-color: #ffac7d;
     border-radius: 5px;
     border: none;
-    width: 30px;
+    width: 50px;
  }     
  .bottomnavbar{
 display: flex;
