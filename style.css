@@ -41,6 +41,13 @@ backdrop-filter: grayscale(40%);
 .navbar input{
     width: 350px; 
 }
+.navbar input:hover{
+    color: #002d3d;
+    background-color: #fcf7f3;
+}
+.navbar i{
+    padding-left: -2%;
+}
 .box1 hr{
 width: 1200px;
 
